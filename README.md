@@ -1,3 +1,3 @@
 # prometheus
 
-Front-end. Повний курс для початківців від Ciklum
+Front-end. Complete course for beginners from Ciklum
