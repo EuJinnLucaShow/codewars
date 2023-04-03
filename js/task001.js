@@ -6,10 +6,33 @@
 
 Отже, код arrs.reduce((c, [a, b]) => c + a - b, 0) обчислює суму різниць між елементами масиву arrs та повертає отриманий результат.*/
 
+const number = arrs => arrs.reduce((c, [a, b]) => c + a - b, 0)
 
-const number = (arrs) => arrs.reduce((c, [a, b]) => c + a - b, 0);
-
-console.log(number([[10, 0], [3, 5], [5, 8]]));                           //5
-console.log(number([[3, 0], [9, 1], [4, 10], [12, 2], [6, 1], [7, 10]])); //17
-console.log(number([[3, 0], [9, 1], [4, 8], [12, 2], [6, 1], [7, 8]]));   //21
-console.log(number([[0, 0]]));                                            //0
+console.log(
+  number([
+    [10, 0],
+    [3, 5],
+    [5, 8],
+  ]),
+) //5
+console.log(
+  number([
+    [3, 0],
+    [9, 1],
+    [4, 10],
+    [12, 2],
+    [6, 1],
+    [7, 10],
+  ]),
+) //17
+console.log(
+  number([
+    [3, 0],
+    [9, 1],
+    [4, 8],
+    [12, 2],
+    [6, 1],
+    [7, 8],
+  ]),
+) //21
+console.log(number([[0, 0]])) //0

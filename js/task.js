@@ -18,14 +18,13 @@
 //   return dna.replace(/T/g, 'U');
 // }
 
-const DNAtoRNA = dna => dna.replaceAll('T', 'U');
+const DNAtoRNA = dna => dna.replaceAll('T', 'U')
 
 // function DNAtoRNA(dna) {
 //   return dna.split("T").join("U");
 // }
 
-console.log(DNAtoRNA("GCAT"));       //  "GCAU"
-console.log(DNAtoRNA("TTTT"));       //  "UUUU"
-console.log(DNAtoRNA("GCAT"));       //  "GCAU"
-console.log(DNAtoRNA("GACCGCCGCC")); //  "GACCGCCGCC"
-
+console.log(DNAtoRNA('GCAT')) //  "GCAU"
+console.log(DNAtoRNA('TTTT')) //  "UUUU"
+console.log(DNAtoRNA('GCAT')) //  "GCAU"
+console.log(DNAtoRNA('GACCGCCGCC')) //  "GACCGCCGCC"
