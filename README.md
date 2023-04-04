@@ -1,3 +1,3 @@
-# prometheus
+Training exercises from codewars
 
-Front-end. Complete course for beginners from Ciklum
+
