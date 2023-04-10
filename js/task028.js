@@ -7,7 +7,9 @@ Example
 */
 
 function solution(string) {
-  return string
+  return string.replace(/[A-Z]/g, function (match) {
+    return ' ' + match
+  })
 }
 
 console.log(solution('camelCasing')) //'camel Casing'
